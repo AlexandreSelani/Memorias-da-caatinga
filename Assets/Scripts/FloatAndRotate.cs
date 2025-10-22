@@ -21,5 +21,6 @@ public class FloatAndRotate : MonoBehaviour
 
         // rotação constante
         transform.Rotate(Vector3.up * rotationSpeed * Time.deltaTime);
+        
     }
 }
