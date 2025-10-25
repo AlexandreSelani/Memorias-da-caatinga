@@ -1507,8 +1507,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   componenteDeUI: {fileID: 0}
-  duracao_fade_in: 3
-  duracao_fade_out: 3
+  duracao_fade_in: 0.5
+  duracao_fade_out: 2.4
 --- !u!1 &8405342118755720296
 GameObject:
   m_ObjectHideFlags: 0
