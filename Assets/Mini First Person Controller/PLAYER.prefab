@@ -1347,7 +1347,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  canRun: 1
+  canRun: 0
   runSpeed: 9
   runningKey: 304
 --- !u!114 &3793406598203387392
