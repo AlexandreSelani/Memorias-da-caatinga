@@ -22,7 +22,7 @@ public class ativaFogo_fase2 : MonoBehaviour
     {
         if (other.CompareTag(playerTag))
         {
-            script_do_fogo.mover = true;
+            script_do_fogo.mover = !script_do_fogo.mover;
         }
     }
 }
