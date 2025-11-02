@@ -35,9 +35,10 @@ public class PassaCena : MonoBehaviour
     yield return StartCoroutine(fade.fadein_sequence());
     passaCena();
 }
-    void passaCena()
+    public void passaCena()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        Debug.Log("apertou");
 
     }
 }
