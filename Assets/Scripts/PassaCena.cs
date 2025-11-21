@@ -41,4 +41,11 @@ public class PassaCena : MonoBehaviour
         Debug.Log("apertou");
 
     }
+
+    public void cenaInicial()
+    {
+        SceneManager.LoadScene(0);
+        Debug.Log("apertou");
+
+    }
 }
