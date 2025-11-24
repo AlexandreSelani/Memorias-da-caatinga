@@ -2123,7 +2123,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6770643306583295075, guid: 1c8d74dc4ad09b741b4ca7c55bc3ceb7, type: 3}
       propertyPath: mensagem
-      value: Pague seus pecados
+      value: Mergulhe em seus pecados
       objectReference: {fileID: 0}
     - target: {fileID: 6770643306583295075, guid: 1c8d74dc4ad09b741b4ca7c55bc3ceb7, type: 3}
       propertyPath: painelUI
@@ -2364,6 +2364,10 @@ PrefabInstance:
     - target: {fileID: 1918750161102007674, guid: ae122353fc171f64d919756284b1667e, type: 3}
       propertyPath: m_hasFontAssetChanged
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3641604074807660932, guid: ae122353fc171f64d919756284b1667e, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 65
       objectReference: {fileID: 0}
     - target: {fileID: 5054388108960371251, guid: ae122353fc171f64d919756284b1667e, type: 3}
       propertyPath: m_Color.a

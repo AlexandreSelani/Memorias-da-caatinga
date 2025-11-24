@@ -41,12 +41,12 @@ public class LooperControlador : MonoBehaviour
 
          switch (contadorDeLoops)
         {
-            case 2:
+            case 3:
                 objetos_spawnaveis[0].transform.position = posicao_mensagem;
                 objetos_spawnaveis[0].SetActive(true);
                 break;
                 
-            case 4:
+            case 6:
                 objetos_spawnaveis[1].transform.position = posicao_mensagem;
                 objetos_spawnaveis[1].SetActive(true);
                 objetos_spawnaveis[2].SetActive(true);

@@ -5130,7 +5130,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mover: 0
-  velocidade: 3.5
+  velocidade: 4.5
 --- !u!4 &724831047 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 675031472915417407, guid: 36b28ff1d0e56a5448ec36a02a9349d8, type: 3}
@@ -15452,6 +15452,10 @@ PrefabInstance:
       propertyPath: componenteDeUI
       value: 
       objectReference: {fileID: 1707917730}
+    - target: {fileID: 4237557206808373659, guid: bf229853f6556674485fa4e689cbcdf8, type: 3}
+      propertyPath: movementSpeed
+      value: 2.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5733161706361873311, guid: bf229853f6556674485fa4e689cbcdf8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 38.78
@@ -15533,6 +15537,10 @@ PrefabInstance:
     - target: {fileID: 1918750161102007674, guid: ae122353fc171f64d919756284b1667e, type: 3}
       propertyPath: m_hasFontAssetChanged
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3641604074807660932, guid: ae122353fc171f64d919756284b1667e, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 49
       objectReference: {fileID: 0}
     - target: {fileID: 5494237551366215554, guid: ae122353fc171f64d919756284b1667e, type: 3}
       propertyPath: m_Name
