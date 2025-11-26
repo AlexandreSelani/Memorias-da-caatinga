@@ -6,6 +6,11 @@ public class Fade : MonoBehaviour
     public Canvas componenteDeUI; //componente geral de ui
     private GameObject painel_de_fade; //painel que realiza fade in/out
     public float duracao_fade_in; 
+    private AudioSource somDePapel;
+    public string PlayerTag = "Player";
+
+    private bool jaAtivado = false;
+
     public float duracao_fade_out;
     private bool UIAtivo = true;
 
@@ -19,6 +24,21 @@ public class Fade : MonoBehaviour
         painel_de_fade.SetActive(UIAtivo);
         StartCoroutine(fadeout_sequence());
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (jaAtivado) return;
+        if (other.CompareTag(PlayerTag))
+        {
+            jaAtivado = true;
+            AudioSource.PlayClipAtPoint(somDePapel.clip, transform.position);
+            StartCoroutine(mostraMensagem());
+
+            
+        }
+    }
+
+
 
     // Update is called once per frame
     void Update()
@@ -65,6 +85,31 @@ public class Fade : MonoBehaviour
 
 
     }
+
+    private IEnumerator mostraMensagem()
+    {
+
+        float duracao_fade = 1.75f;
+
+        //passa a mensagem para a UI
+        messageText.text = mensagem;
+        //ativa a UI
+        UIAtivo = true;
+        painel.SetActive(UIAtivo);
+
+        //fades
+        yield return fadeIn(duracao_fade);
+        yield return new WaitForSeconds(5f);
+        yield return fadeOut(duracao_fade);
+
+        //desativa a UI
+        UIAtivo = false;
+        painel.SetActive(UIAtivo);
+
+        //destroi o objeto todo
+        Destroy(gameObject);
+    }
+    
     
     private IEnumerator fadein()
     {

@@ -3,7 +3,12 @@ guid: 8039025f0d95a1049a4b98cc213df79a
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BranchMat
+    second: {fileID: 2100000, guid: 20569ea04f91ea74ba6ade87de941ee6, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -30,12 +35,12 @@ ModelImporter:
     extraExposedTransformPaths: []
     extraUserProperties: []
     clipAnimations: []
-    isReadable: 0
+    isReadable: 1
   meshes:
     lODScreenPercentages: []
     globalScale: 1
-    meshCompression: 0
-    addColliders: 0
+    meshCompression: 3
+    addColliders: 1
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
     importPhysicalCameras: 1
