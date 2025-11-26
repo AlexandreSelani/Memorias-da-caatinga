@@ -15,9 +15,9 @@ RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 10
   m_Fog: 1
-  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-  m_FogMode: 3
-  m_FogDensity: 0.025
+  m_FogColor: {r: 0, g: 0, b: 0, a: 1}
+  m_FogMode: 2
+  m_FogDensity: 0.699
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
@@ -25,7 +25,7 @@ RenderSettings:
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 0
   m_AmbientMode: 0
-  m_SubtractiveShadowColor: {r: 0.18420783, g: 0.20273602, b: 0.24905652, a: 1}
+  m_SubtractiveShadowColor: {r: 0, g: 0, b: 0, a: 1}
   m_SkyboxMaterial: {fileID: 2100000, guid: 82b660520bdecce4daf45d270ec93fe4, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
@@ -5130,7 +5130,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mover: 0
-  velocidade: 4.5
+  velocidade: 3.9
 --- !u!4 &724831047 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 675031472915417407, guid: 36b28ff1d0e56a5448ec36a02a9349d8, type: 3}
@@ -10371,12 +10371,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6770643306583295075, guid: 1c8d74dc4ad09b741b4ca7c55bc3ceb7, type: 3}
       propertyPath: mensagem
-      value: "Fa\xE7a o que fez em vida. Queime."
+      value: Queime como queimou a vida daqui.
       objectReference: {fileID: 0}
     - target: {fileID: 6770643306583295075, guid: 1c8d74dc4ad09b741b4ca7c55bc3ceb7, type: 3}
       propertyPath: componenteDeUI
       value: 
       objectReference: {fileID: 1707917730}
+    - target: {fileID: 7029646217289676354, guid: 1c8d74dc4ad09b741b4ca7c55bc3ceb7, type: 3}
+      propertyPath: m_Range
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7029646217289676354, guid: 1c8d74dc4ad09b741b4ca7c55bc3ceb7, type: 3}
+      propertyPath: m_Intensity
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 7029646217289676354, guid: 1c8d74dc4ad09b741b4ca7c55bc3ceb7, type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7029646217289676354, guid: 1c8d74dc4ad09b741b4ca7c55bc3ceb7, type: 3}
+      propertyPath: m_BounceIntensity
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7151421616534206799, guid: 1c8d74dc4ad09b741b4ca7c55bc3ceb7, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.5380983
@@ -13514,6 +13530,10 @@ PrefabInstance:
       propertyPath: componenteDeUI
       value: 
       objectReference: {fileID: 1707917730}
+    - target: {fileID: 7029646217289676354, guid: 1c8d74dc4ad09b741b4ca7c55bc3ceb7, type: 3}
+      propertyPath: m_Intensity
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 7151421616534206799, guid: 1c8d74dc4ad09b741b4ca7c55bc3ceb7, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.5380983
@@ -13528,7 +13548,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7151421616534206799, guid: 1c8d74dc4ad09b741b4ca7c55bc3ceb7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8
+      value: 13.67
       objectReference: {fileID: 0}
     - target: {fileID: 7151421616534206799, guid: 1c8d74dc4ad09b741b4ca7c55bc3ceb7, type: 3}
       propertyPath: m_LocalPosition.y
