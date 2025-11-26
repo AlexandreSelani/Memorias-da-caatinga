@@ -9,8 +9,7 @@ using UnityEngine;
 // audio attached to the AudioClip.
 
 public class DontDestroy : MonoBehaviour
-{   
-    
+{
     void Awake()
     {
         GameObject[] objs = GameObject.FindGameObjectsWithTag("music");
