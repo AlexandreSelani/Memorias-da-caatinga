@@ -18,11 +18,14 @@ EditorBuildSettings:
     path: Assets/Scenes/fase 2.unity
     guid: 944aaa85771608141b8047ead48306ff
   - enabled: 1
-    path: Assets/Scenes/fase 4.unity
-    guid: 1ec8985315ce6db4180bc31173b4fb56
-  - enabled: 1
     path: Assets/Scenes/fase_3_v2.unity
     guid: 074f367d045cd8344b1c34af1a4b047d
+  - enabled: 1
+    path: Assets/Scenes/fase_final.unity
+    guid: 5c73ddc0368e20540b88be5a2c3d44ac
+  - enabled: 1
+    path: Assets/Scenes/fase 5.unity
+    guid: a8a461a0caabe6f40ad7ee5aa96d6593
   - enabled: 1
     path: Assets/Scenes/TelaFinal.unity
     guid: 6aebbcbf153705f46a2854f5334c9086

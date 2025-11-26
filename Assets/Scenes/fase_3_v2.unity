@@ -2086,11 +2086,23 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1918750161102007674, guid: ae122353fc171f64d919756284b1667e, type: 3}
       propertyPath: m_fontSize
-      value: 60
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 1918750161102007674, guid: ae122353fc171f64d919756284b1667e, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: b34163650a9c1334abb8f9035850c000, type: 2}
+    - target: {fileID: 1918750161102007674, guid: ae122353fc171f64d919756284b1667e, type: 3}
       propertyPath: m_fontSizeBase
-      value: 60
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918750161102007674, guid: ae122353fc171f64d919756284b1667e, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 6913940808091434293, guid: b34163650a9c1334abb8f9035850c000, type: 2}
+    - target: {fileID: 1918750161102007674, guid: ae122353fc171f64d919756284b1667e, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5494237551366215554, guid: ae122353fc171f64d919756284b1667e, type: 3}
       propertyPath: m_Name
@@ -2370,7 +2382,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: 6f9f32fee3946804d82d59b66d03c6c7, type: 3}
+  m_Resource: {fileID: 8300000, guid: 9a1dbf46bea941b4fba91791b2fb7ab5, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -2378,7 +2390,7 @@ AudioSource:
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 67
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500

@@ -3590,6 +3590,32 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 572171662155357415, guid: bec0928f588af254bb7f5781de30f725, type: 3}
   m_PrefabInstance: {fileID: 554127561}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &558117528 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2595838750558009662, guid: bf229853f6556674485fa4e689cbcdf8, type: 3}
+  m_PrefabInstance: {fileID: 5672196434417001699}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &558117530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 558117528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb598a48d9e0a1c4a8370f8911d2e43c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myLight: {fileID: 558117532}
+  minIntensity: 5
+  maxIntensity: 10
+  flickerSpeed: 0.1
+--- !u!108 &558117532 stripped
+Light:
+  m_CorrespondingSourceObject: {fileID: 1543110097204091951, guid: bf229853f6556674485fa4e689cbcdf8, type: 3}
+  m_PrefabInstance: {fileID: 5672196434417001699}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &560562627
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15331,6 +15357,14 @@ PrefabInstance:
       propertyPath: componenteDeUI
       value: 
       objectReference: {fileID: 1707917730}
+    - target: {fileID: 1543110097204091951, guid: bf229853f6556674485fa4e689cbcdf8, type: 3}
+      propertyPath: m_Range
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1543110097204091951, guid: bf229853f6556674485fa4e689cbcdf8, type: 3}
+      propertyPath: m_Intensity
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 4237557206808373659, guid: bf229853f6556674485fa4e689cbcdf8, type: 3}
       propertyPath: movementSpeed
       value: 2.5
@@ -15382,7 +15416,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2595838750558009662, guid: bf229853f6556674485fa4e689cbcdf8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 558117530}
   m_SourcePrefab: {fileID: 100100000, guid: bf229853f6556674485fa4e689cbcdf8, type: 3}
 --- !u!4 &7918483727009187766 stripped
 Transform:
@@ -15404,7 +15441,7 @@ PrefabInstance:
     - target: {fileID: 1918750161102007674, guid: ae122353fc171f64d919756284b1667e, type: 3}
       propertyPath: m_fontAsset
       value: 
-      objectReference: {fileID: 11400000, guid: 487b0d0b6344da64189289eda98f3a6d, type: 2}
+      objectReference: {fileID: 11400000, guid: b34163650a9c1334abb8f9035850c000, type: 2}
     - target: {fileID: 1918750161102007674, guid: ae122353fc171f64d919756284b1667e, type: 3}
       propertyPath: m_fontSizeBase
       value: 80
@@ -15412,7 +15449,7 @@ PrefabInstance:
     - target: {fileID: 1918750161102007674, guid: ae122353fc171f64d919756284b1667e, type: 3}
       propertyPath: m_sharedMaterial
       value: 
-      objectReference: {fileID: 6913940808091434293, guid: 487b0d0b6344da64189289eda98f3a6d, type: 2}
+      objectReference: {fileID: 6913940808091434293, guid: b34163650a9c1334abb8f9035850c000, type: 2}
     - target: {fileID: 1918750161102007674, guid: ae122353fc171f64d919756284b1667e, type: 3}
       propertyPath: m_hasFontAssetChanged
       value: 0

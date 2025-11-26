@@ -585,7 +585,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 489caf037237873439c0896e1d62de92, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.928
+  m_Volume: 1
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -743,8 +743,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: JOGAR
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 487b0d0b6344da64189289eda98f3a6d, type: 2}
-  m_sharedMaterial: {fileID: 6913940808091434293, guid: 487b0d0b6344da64189289eda98f3a6d, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b34163650a9c1334abb8f9035850c000, type: 2}
+  m_sharedMaterial: {fileID: 6913940808091434293, guid: b34163650a9c1334abb8f9035850c000, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1417,8 +1417,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "INSTRU\xC7\xD5ES"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 487b0d0b6344da64189289eda98f3a6d, type: 2}
-  m_sharedMaterial: {fileID: 6913940808091434293, guid: 487b0d0b6344da64189289eda98f3a6d, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b34163650a9c1334abb8f9035850c000, type: 2}
+  m_sharedMaterial: {fileID: 6913940808091434293, guid: b34163650a9c1334abb8f9035850c000, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1803,7 +1803,7 @@ MonoBehaviour:
     a vida e a morte.\n\nWASD - Movimento\nMouse - mover a c\xE2mera\nShift - Correr
     (em algumas fases)"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 487b0d0b6344da64189289eda98f3a6d, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b34163650a9c1334abb8f9035850c000, type: 2}
   m_sharedMaterial: {fileID: 6913940808091434293, guid: 487b0d0b6344da64189289eda98f3a6d, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -1869,7 +1869,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!224 &5485385926074575446
