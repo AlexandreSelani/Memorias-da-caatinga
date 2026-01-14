@@ -10,7 +10,7 @@ No desenvolvimento do jogo, foi necessário aplicar amplamente conhecimento em p
 
 *  **Vídeo do jogo em execução: https://youtu.be/fh8fN_heVAU**
 
-#Documentação
+# Documentação
 
 O Game Design Document (GDD) se encontra na raíz do repositório e contém mais detalhes sobre o jogo.
 
